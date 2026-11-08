@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple country-music song, written as a teen experiencing first love.">
+  <title>Your Eyes</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f7f5f0;
+      color: #302b26;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 2rem 1rem;
+    }
+
+    main {
+      width: min(100%, 620px);
+      padding: 3rem 2rem;
+      text-align: center;
+      background: #fffefa;
+      border: 1px solid #e7e0d5;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(48, 43, 38, 0.06);
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(2.5rem, 8vw, 4rem);
+      font-weight: normal;
+      letter-spacing: 0.03em;
+    }
+
+    p {
+      margin: 0 auto 2rem;
+      max-width: 30rem;
+      color: #6a6259;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    audio {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      color: #938a80;
+      font: 0.8rem Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Your Eyes</h1>
+    <p>A simple country-music song, written as a teen experiencing first love.</p>
+
+    <audio controls preload="metadata">
+      <source src="Your%20eyes.wav" type="audio/wav">
+      Your browser does not support audio playback.
+    </audio>
+
+    <footer>Your Eyes</footer>
+  </main>
+</body>
+</html>
